@@ -3,10 +3,42 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  /* padding: 6rem; */
+  /* min-height: 100vh; */
+}
+.header{
+  margin: 20px;
+}
+.header p{
+  margin-top: 10px;
 }
 
+.menu{
+  display: flex;
+  margin-top: 10px;
+  
+
+}
+.h2
+{
+  margin-top: 20px
+  ;
+}
+.menu ul{
+  display: flex;
+  
+
+}
+.menu ul li{
+  display: flex;
+  margin: 20px;
+  font-weight: bold;
+  
+
+}
+.blogsitems{
+  margin: 20px;
+}
 .description {
   display: inherit;
   justify-content: inherit;
