@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
@@ -18,9 +19,15 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.menu}>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
+
+         <li><Link href="/About">About</Link></li>
+         <li><Link href="/Contact">Contact</Link></li>
+         <li><Link href="/Blog">Blog</Link></li>
+            
+            
+            
+            
+            
           </ul>
         </div>
 
